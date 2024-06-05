@@ -18,4 +18,4 @@ Web mājaslapas prototips(demo)
      - Nav datubāzes integrācijas jo pats projekts pagaidām ir tikai prototips/demonstrācijas sistēma.
      - Nav implamentēta funkcija kura parāda Neišķirtu ja sistēmās abi rezultātu punkti ir vienādi.
      - Pagaidām ielikt funkciju kura parāda sakrātos punktus nav iespējams bet varbūt to var izdarīt.
-     - nav tik moderns dizains.
+     - Nav moderna dizaina(paši spriežiet pēc apskates.)
