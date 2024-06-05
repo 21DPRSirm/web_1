@@ -1,0 +1,109 @@
+body {
+    background-image: url("pe_wallpapers1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* body {
+    background-color:  rgb(162, 148, 130);
+} */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'sans-serif';
+  }
+
+.question-container {
+    position: absolute;
+    top: 24%;
+    left: middle;
+    background-color: rgba(118, 162, 162, 0.742); /* Add your desired background color */
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners */
+    border: 1px;
+    border: solid;
+    width: 50%;
+}
+/* nav {
+    height: 80px;
+    background: #937d66;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+} */
+/*SELECTIONS*/
+.topnav-2 {
+    height: 50px;
+    width: auto;
+    background: #ffb463d5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px;
+    padding: 0rem calc((100vw - 1000px) / 2)
+}
+/* DEMO-PROTOTYPE NOTICE SECTION */
+.question-container002 {
+    position: absolute;
+    top: 05%;
+    left: 0;
+    text-align: center;
+    background-color: rgb(108, 108, 108); /* Add your desired background color */
+    padding: 05px;
+    border: 1px;
+    border: solid;
+    border-radius: 0px; /* Add rounded corners */
+    width: 100%;
+}
+.submit-button {
+    position: absolute;
+    bottom: 55%;
+    left: 70%;
+    background-color: rgba(226, 85, 10, 50%); /* Add your desired background color */
+    padding: 20px;
+    border-radius: 30px; /* Add rounded corners */
+    border: 1px;
+    border: solid;
+    font-weight: bold;
+    font-size: 20px;
+    width: 10%;
+}
+.recomand-text1 {
+    position: absolute;
+    bottom: 40%;
+    left: 70%;
+    background-color: rgba(152, 40, 40, 0.427); /* Add your desired background color */
+    padding: 10px;
+    border-radius: 12px; /* Add rounded corners */
+    width: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px;
+    border: solid;
+}
+.refresh-page1 {
+    position: absolute;
+    bottom: 25%;
+    left: 70%;
+    background-color: rgba(22, 139, 20, 0.636); /* Add your desired background color */
+    padding: 20px;
+    border-radius: 20px; /* Add rounded corners */
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px;
+    border: solid;
+}
+/* .scoring_end_cotainer {
+    position: absolute;
+    bottom: -115%;
+    background-color: rgba(182, 61, 61, 0.636);
+    padding: 20px;
+    border-radius: 20px;
+    width: auto;
+} */
+html {
+    zoom: 0.85;
+}
+
