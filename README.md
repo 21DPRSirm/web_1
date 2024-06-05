@@ -14,8 +14,14 @@ Web mājaslapas prototips(demo)
      - Notepad/Notepad++
      - Interneta Pārlūkprogramma(Google Chrome, Microsoft Edge, Brave, u.c).
      - Operētājsistēma "Microsoft Windows"
+
 3. Pašlaik zināmās problēmas/nepilnības projektā.
      - Nav datubāzes integrācijas jo pats projekts pagaidām ir tikai prototips/demonstrācijas sistēma.
      - Nav implamentēta funkcija kura parāda Neišķirtu ja sistēmās abi rezultātu punkti ir vienādi.
      - Pagaidām ielikt funkciju kura parāda sakrātos punktus nav iespējams bet varbūt to var izdarīt.
      - Nav moderna dizaina(paši spriežiet pēc apskates.)
+
+4. Izmantotās programmēšanas valodas:
+     - JavaScript
+     - CSS
+     - HTML
