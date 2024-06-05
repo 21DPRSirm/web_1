@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          margin: 0;
+          zoom: 105%;
+        }
+        
+        /* Style the header */
+        .header {
+          background-color: #f1f1f1;
+          padding: 30px;
+          text-align: center;
+        }
+        
+        /* Style the top navigation bar */
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        /* Style the topnav links */
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        /* Change color on hover */
+        /*
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        */
+        </style>
+        </head>
+        <!-- Time And Date Code-->
+	      <script>
+		      function updateTime() {
+			    var now = new Date();
+			    var date = now.toLocaleDateString();
+			    var time = now.toLocaleTimeString();
+			    document.getElementById("datetime").innerHTML = date + " " + time;
+		    }
+		  setInterval(updateTime, 1000);
+	      </script>
+        <body>
+        <div class="topnav">
+          <a href="RegistraTest.html">Register/Login</a>
+          <a href="about_screen.html">About</a>
+          <a href="Terms_And_Privacy.html">Terms and Privacy</a>
+          <a href="Test_H.html">TEST</a>
+          <a href="help1.html">Help</a>
+          <a href="login1.html">Sign-in</a>
+        </div>
+        <div class="topnav">
+          <a>The current local time and date is: <span id="datetime"></span></a>
+        </div>
+        
+        </body>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body {
+        background-image: url("pe_wallpapers1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    </style>
+    <div class="profile_icon">
+        <img src="./images/test2.png" alt="Profile Picture" style="width: 100px;height: 100px;">
+    </div>
+</head>
+<body>
+    <from action="action_page.php">
+        <div class="container">
+            <h1>El Registro</h1>
+            <p> Pliz fill in zis form tu kreit akkount.</p>
+            
+            <hr>
+    
+            <label for="ze email"><b>Email</b></label>
+            <input type="text" placeholder="Email" name="email" id="ze email" required>
+    
+            <label for="usr"><b>Username</b></label>
+            <input type="username" placeholder="Username" name="usr" id="usr" required>
+    
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Password" name="psw" id="psw" required>
+
+            <hr>
+    
+            <p>bai kreiting akkount ju agree tu our <a href="Terms_And_Privacy.html">Terms end Privaci</a>!</p>
+            <button type="submit" class="registerbtn">Register</button>
+        </div>
+    </from>
+</body>
+</html>
