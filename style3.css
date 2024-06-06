@@ -7,7 +7,7 @@
 
 nav {
   height: 80px;
-  background: #937d66;
+  background: #7e6850;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,7 +33,7 @@ nav a:hover {
 }
 
 .hero {
-  background: hsl(49, 26%, 59%);
+  background: hsl(48, 11%, 55%);
 }
 
 .hero-container {

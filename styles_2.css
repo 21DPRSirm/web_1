@@ -1,11 +1,11 @@
-body {
+/* body {
     background-image: url("pe_wallpapers1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-}
-/* body {
-    background-color:  rgb(162, 148, 130);
 } */
+body {
+    background-color:  rgb(162, 148, 130);
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +15,7 @@ body {
 
 .question-container {
     position: absolute;
-    top: 24%;
+    top: 20%;
     left: middle;
     background-color: rgba(118, 162, 162, 0.742); /* Add your desired background color */
     padding: 20px;
@@ -24,23 +24,15 @@ body {
     border: solid;
     width: 50%;
 }
-/* nav {
-    height: 80px;
-    background: #937d66;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0rem calc((100vw - 1300px) / 2);
-} */
 /*SELECTIONS*/
 .topnav-2 {
-    height: 50px;
+    height: 45px;
     width: auto;
-    background: #ffb463d5;
+    background: #ff8400;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px;
+    border: 5px;
     padding: 0rem calc((100vw - 1000px) / 2)
 }
 /* DEMO-PROTOTYPE NOTICE SECTION */
@@ -49,16 +41,14 @@ body {
     top: 05%;
     left: 0;
     text-align: center;
-    background-color: rgb(108, 108, 108); /* Add your desired background color */
+    background-color: rgb(162, 148, 130); /* Add your desired background color */
     padding: 05px;
-    border: 1px;
-    border: solid;
     border-radius: 0px; /* Add rounded corners */
     width: 100%;
 }
 .submit-button {
     position: absolute;
-    bottom: 55%;
+    bottom: 70%;
     left: 70%;
     background-color: rgba(226, 85, 10, 50%); /* Add your desired background color */
     padding: 20px;
@@ -71,7 +61,7 @@ body {
 }
 .recomand-text1 {
     position: absolute;
-    bottom: 40%;
+    bottom: 55%;
     left: 70%;
     background-color: rgba(152, 40, 40, 0.427); /* Add your desired background color */
     padding: 10px;
@@ -82,9 +72,35 @@ body {
     border: 1px;
     border: solid;
 }
+/* .goBack {
+    position: absolute;
+    background-color: rgb(164, 134, 97);
+    padding: 20px;
+    border-radius: 20px;
+    bottom: 25%;
+    left: 75%;
+    font-weight: bold;
+    border: 1px;
+    border: solid;
+    font-size: 10px;
+} */
+.links1 {
+    /* color: inherit; */
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.imageInForm {
+    position: absolute;
+    bottom: 5%;
+    left: 70%;
+}
 .refresh-page1 {
     position: absolute;
-    bottom: 25%;
+    bottom: 37%;
     left: 70%;
     background-color: rgba(22, 139, 20, 0.636); /* Add your desired background color */
     padding: 20px;
