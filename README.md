@@ -19,7 +19,7 @@ Web mājaslapas prototips(demo)
      - Nav implamentēta funkcija kura parāda Neišķirtu ja sistēmās abi rezultātu punkti ir vienādi.
      - Pagaidām ielikt funkciju kura parāda sakrātos punktus nav iespējams bet varbūt to var izdarīt.
      - Nav moderna dizaina(paši spriežiet pēc apskates.)
-     - Lapā "[PROTOTYPE] IT Tech vs Programming The Final Settlement [PROTOTYPE]"(jeb failā: "Demo1.html") tur kur ir tā anketa pašlaik nevar palielināt pogas "About" lielumu.
+     - Nav lietotāja/admina reģistrācijas/logina shēmas/funkcijas, tas nozīmētu ka pašlaik lietotāji mājaslapā ir tikai apmeklētāji un mājaslapas izstrādātājs/ji.
 
 4. Izmantotās programmēšanas valodas:
      - JavaScript
